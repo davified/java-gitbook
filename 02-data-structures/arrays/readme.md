@@ -12,12 +12,14 @@ dataType[] arrayRefVar = {value0, value1, ..., valuek};
 
 ### Class (static) methods in the Array class
 To use Array static methods, you must import the Array class
-```import java.util.Arrays
+```
+import java.util.Arrays
 ```
 
 #### Arrays.toString(arr)
 This is useful in printing the array to stdout:
-```System.out.println(Arrays.toString(arr));
+```
+System.out.println(Arrays.toString(arr));
 ```
 
 #### public static int binarySearch(Object[] a, Object key)
@@ -29,7 +31,8 @@ Returns true if the two specified arrays of longs are equal to one another. Two 
 #### public static void fill(int[] a, int val)
 Assigns the specified int value to each element of the specified array of ints. The same method could be used by all other primitive data types (Byte, short, Int, etc.). Example:
 
-```int[] arr = new int[3];
+```
+int[] arr = new int[3];
 Arrays.fill(arr, 10);
 ```
 

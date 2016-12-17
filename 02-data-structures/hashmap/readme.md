@@ -1,24 +1,28 @@
 # Hashmap
 
 ### Creating a HashMap
-```HashMap<Integer, String> myHashMap = new HashMap<Integer, String>();
+```
+HashMap<Integer, String> myHashMap = new HashMap<Integer, String>();
 ```
 
 ### Key class methods
 
 * `put(KeyType key, ValueType value)` add key value pair
-```hmap.put(12, "Chaitanya");
+```
+hmap.put(12, "Chaitanya");
 ```
 * `get(key)` retrieve value by key
 
-```hmap.get(2);
+```
+hmap.get(2);
 // or
 hmap.get(myKey);
 ```
 
 * `remove(key)` remove key-value pair by key
 
-```hmap.remove(3);
+```
+hmap.remove(3);
 ```
 
 * `void clear()` It removes all the key and value pairs from the specified Map.
