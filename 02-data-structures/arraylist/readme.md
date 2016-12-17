@@ -1,6 +1,6 @@
 # ArrayList
 
-# Initializing ArrayLists
+### Initializing ArrayLists
 Method 1: Initialization using Arrays.asList
 
 ```ArrayList<Type> obj = new ArrayList<Type>(
@@ -63,7 +63,7 @@ obj.set(2, "Tom"); this replaces the element at the given index
 ```obj.clear(); //remove everything from the arraylist
 ```
 
-# Looping
+### Looping
 Apart from for, forEach and while, we can also use the iterator
 
 ```Iterator iter = arrlist.iterator();
@@ -83,7 +83,7 @@ We can also use the Enumerator interface
       System.out.println(e.nextElement());
 
 ```
-# Sorting
+### Sorting
 
 * Sorting strings and numbers - `.sort()`
 * Reversing the sort: call .sort() and then .reverse()
@@ -186,7 +186,7 @@ public class Student  {
 	   Collections.sort(arraylist, Student.StuRollno);
 ```
 
-# Comparing two ArrayLists
+### Comparing two ArrayLists
 You have to loop through one array and use the .contains(Object o) method within the for loop
 .contains(...) returns true if the list contains the Object o else it returns false.
 ```for (String temp : al1)
@@ -194,7 +194,7 @@ You have to loop through one array and use the .contains(Object o) method within
           System.out.println(al3);
 ```
 
-# Other frequently-used Collections class methods:
+### Other frequently-used Collections class methods:
 
 * Swapping the position of two elements in an ArrayList `Collections.swap(ist list, int i1, int i2) `
 ```

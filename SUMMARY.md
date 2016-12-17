@@ -5,4 +5,4 @@
 * [Data structures](02-data-structures/readme.md)
 	* [Arrays](02-data-structures/arrays/readme.md)
 	* [ArrayList](02-data-structures/arraylist/readme.md)
-	* [HashMap] (02-data-structures/hashmap/readme.md) 
+	* [HashMap](02-data-structures/hashmap/readme.md) 
