@@ -8,6 +8,9 @@ An array is a fixed-size sequential collection of elements of the same type. An 
 dataType[] arrayRefVar;   // preferred way
 dataType[] arrayRefVar = new dataType[arraySize];
 dataType[] arrayRefVar = {value0, value1, ..., valuek};
+
+// nested arrays
+dataType[][] arrayRefVar = {{value0, value1}, {value0, value1} ..., {value0, value1}};
 ```
 
 ### Class (static) methods in the Array class
