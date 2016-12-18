@@ -112,9 +112,8 @@ public class Student implements Comparable {
         this.studentname = studentname;
         this.studentage = studentage;
     }
-    ...
     //getter and setter methods same as the above example
-    ...
+
     @Override
     public int compareTo(Student comparestu) {
         int compareage=((Student)comparestu).getStudentage();
@@ -123,9 +122,7 @@ public class Student implements Comparable {
 
         /* For Descending order do like this */
         //return compareage-this.studentage;
-    }
-// after doing this, we can then call Collections.sort(arraylist);
-
+    } // after doing this, we can then call Collections.sort(arraylist);
 
     @Override
     public String toString() {
@@ -133,9 +130,11 @@ public class Student implements Comparable {
     }
 
 }
+
 ```
 
 * Sorting objects based on multiple properties with Comparator
+
 ```
 import java.util.Comparator;
 public class Student  {
