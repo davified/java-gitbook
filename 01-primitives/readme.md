@@ -15,8 +15,15 @@ Converting data types:
 ### Integer methods
 
 ### String methods
-* ``char charAt(int index)``: It returns the character at the specified index. Specified index value should be between 0 to length() -1 both inclusive. It throws IndexOutOfBoundsException if index<0||>= length of String.
-* `int codePointAt(int index)`:It is similar to the charAt method however it returns the Unicode code point value of specified index rather than the character itself.
+Usage:
+
+```
+String str = "some kind of string";
+str.someMethod(someArgs);
+```
+
+* `char charAt(int index)`: It returns the character at the specified index. Specified index value should be between 0 to length() -1 both inclusive. It throws IndexOutOfBoundsException if index<0||>= length of String.
+* `int codePointAt(int index)`: It is similar to the charAt method however it returns the Unicode code point value of specified index rather than the character itself.
 * `void getChars(int srcBegin, int srcEnd, char[] dest, int destBegin)`: It copies the characters of src array to the dest array. Only the specified range is being copied(srcBegin to srcEnd) to the dest subarray(starting fromdestBegin).
 * `boolean equals(Object obj)`: Compares the string with the specified string and returns true if both matches else false.
 * `boolean contentEquals(StringBuffer sb)`: It compares the string to the specified string buffer.
