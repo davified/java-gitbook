@@ -73,3 +73,14 @@ str.someMethod(someArgs);
 
 
 https://docs.oracle.com/javase/7/docs/api/java/lang/String.html
+
+#### StdOut.printf()
+To print out a string that has mixed data types, you can use string format:
+* %f - floating points
+* %d - integers
+* %s - strings
+* %c - characters
+Example:
+```
+System.out.printf("hello %3.9f, %d, %s, and %c", Math.PI, 100, "hello", 'ho');
+```

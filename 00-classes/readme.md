@@ -9,6 +9,7 @@ class Dog {
   int age;
   String color;
 
+  // defining our constructor. note the absence of a return type
   public Dog(String name, int age, String color) {
       this.name = name;
       this.age = age;
