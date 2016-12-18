@@ -4,6 +4,7 @@
 Method 1: Initialization using Arrays.asList
 
 ```
+
 ArrayList<Type> obj = new ArrayList<Type>(
         Arrays.asList(Object o1, Object o2, Object o3, ....so on));
 ```
