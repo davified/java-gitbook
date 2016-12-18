@@ -1,6 +1,6 @@
 # Collections
 
-![collections](../img/collections-api.png)
+![collections](../../img/collections-api.png)
 
 The Java Collections Framework has a data structure that should work for virtually anything you'll ever need to do (no need to write your own implentation of quicksort!). Want to keep a list that you can easily keep adding to? Want to find something by name?Want to create a list that automatically takes out all the duplicates
 
