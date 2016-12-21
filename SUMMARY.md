@@ -7,3 +7,4 @@
 	* [Collections](02-data-structures/collections/readme.md)
 		* [ArrayList](02-data-structures/collections/arraylist/readme.md)
 		* [HashMap](02-data-structures/collections/hashmap/readme.md)
+* [IntelliJ Shortcuts](10-intellij-shortcuts/readme.md)
