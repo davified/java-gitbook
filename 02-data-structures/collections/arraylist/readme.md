@@ -34,7 +34,7 @@ public class Details {
 ```
 
 
-Key methods:
+### Key methods:
 * Retrieving length of ArrayList `.size()`
 ```
 int numberofitems = obj.size();
