@@ -14,7 +14,7 @@ Here's a list of useful intelliJ shortcuts. You can also refer to the [cheat she
 |**Indentation**|Tab (forward) and shift + tab (backward)|-|
 |**Autofix indentation/formatting**|Alt + ⌘ + L |Auto fix all indentation and formatting issues!!! To fix only a certain part, select the lines of the code (or the file or the folder) before running alt + ⌘ + L|
 |**Code Generator (awesome!!)** | ⌘ + N|  Select which method you want to generate: (e.g. Constructor, Getter / setter, equals() and hashCode(), toString, super, copyright, etc)
-| Generating Stub test, setUp and tearDown methods | ⌘ + N | To auto-generate a test, type ⌘ + n to bring up the generator menu, and select Test. A test will be generated, and you can just rename it accordingly. The same can be done for setUp and tearDown|
+| Generating Stub test, setUp and tearDown methods | Ctrl + Enter | To auto-generate a test, type ⌘ + n to bring up the generator menu, and select Test. A test will be generated, and you can just rename it accordingly. The same can be done for setUp and tearDown|
 | Running tests | Ctrl + Alt + R | A dropdown menu will show and you can select which test or test class you want to run |
 |VCS and Git|
 |VCS operations popup, searching for branches and annotation| Ctrl + V | see all commands relating to Git. You can click on the number (0-9) as a shortcut
