@@ -1,8 +1,9 @@
 # Collections
 
-![collections](../../img/collections-api.png)
+![collections](/img/collections.png)
+*interfaces are denoted in yellow*
 
-The Java Collections Framework has a data structure that should work for virtually anything you'll ever need to do (no need to write your own implentation of quicksort!). Want to keep a list that you can easily keep adding to? Want to find something by name?Want to create a list that automatically takes out all the duplicates
+The Java Collections Framework has a data structure that should work for virtually anything you'll ever need to do (no need to write your own implentation of quicksort!). Want to keep a list that you can easily keep adding to? Want to find something by name? Want to create a list that automatically takes out all the duplicates? Collections API gives us tried and tested methods for these!
 
 The Collections API gives us three main interfaces (List, Set and Map). More specifically, we can use:
 * ArrayList: the collection that you’ll probably use most often.
@@ -22,7 +23,17 @@ Towards this end, the entire collections framework is designed around a set of s
 
 A collections framework is a unified architecture for representing and manipulating collections. All collections frameworks contain the following −
 * Interfaces − These are abstract data types that represent collections. Interfaces allow collections to be manipulated independently of the details of their representation. In object-oriented languages, interfaces generally form a hierarchy.
+  * For example, the Collections framework extends the java.lang.Iterable interface (that's why we can use the foreach loop). This is what going on behind the scenes in a foreach loop:
+  ```
+  List<String> list = Arrays.asList("Joe", "Adam");
+  Iterator<String> iterator = list.iterator();
+  while (iterator.hasNext()) {
+    System.out.println(iterator.next());
+  }
+  ```
 * Implementations, i.e., Classes − These are the concrete implementations of the collection interfaces. In essence, they are reusable data structures.
 * Algorithms − These are the methods that perform useful computations, such as searching and sorting, on objects that implement collection interfaces. The algorithms are said to be polymorphic: that is, the same method can be used on many different implementations of the appropriate collection interface.
 
 In addition to collections, the framework defines several **map interfaces and classes**. Maps store key/value pairs. Although maps are not collections in the proper use of the term, but they are fully integrated with collections.
+
+#### Interfaces implemented by

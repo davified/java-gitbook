@@ -1,8 +1,23 @@
-# LinkedList
+# LinkedLists
+
+What are LinkedLists?
+* LinkedList uses references (->). In a single linkedlist, each item stores its own data/value and has a reference to the next item. Java also implements a doubly linkedlist, where each item has additionally a reference to the previous item as well.
+* LinkedLists implement 3 interfaces - List, Queue and Deque (see image below)
+![collections](../../img/collections.png)
+* Pros
+  * We can remove items very efficiently because we only need to update the reference/pointers and we don't have to shift the other items - O(1) (however, retrieving that element will be O(N))
+* Cons
+  * No random access! To retrieve an element, we have to sequentially search through the whole list - O(N)
+  * Not synchronised. If multiple threads manipulate the same linkedlist, we have to make some synchronisation
+
+When to use LinkedList?
+* We should use LinkedList for remove-heavy applications
 
 
 ### Initializing LinkedLists
+```
 LinkedList<String> linkedlist = new LinkedList<String>();
+```
 
 
 ### Key methods:

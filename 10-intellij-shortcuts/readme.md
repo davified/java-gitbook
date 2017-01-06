@@ -32,6 +32,7 @@ Here's a list of useful intelliJ shortcuts. You can also refer to the [cheat she
 | Duplicate line | ⌘ + D | - |
 | Delete line | ⌘ + delete | - |
 | Navigating to symbol / method | Alt + ⌘ + O | You can search for the method name, or the class.method(). E.g. both getName() and SCEL.getName() will work |
+| Go to line+column | ⌘ + G | You can navigate by specifying the line and column |
 | Switching between tabs/files | ⌘ + E | You can choose which file you wish to navigate to from the dropdown menu |
 | **Refactoring** |
 |Copy|F5 |-|
@@ -39,7 +40,7 @@ Here's a list of useful intelliJ shortcuts. You can also refer to the [cheat she
 |Safe Delete |⌘ + Delete |-|
 |Rename |Shift + F6 |-|
 |Change Signature |⌘ + alt + F6  |-|
-|Inline|⌘ + alt + N |-|
+|Inline Variable|⌘ + alt + N |-|
 |Extract Method|⌘ + alt + M |-|
 |Extract Variable|⌘ + alt + V |-|
 |Extract Field|⌘ + alt + F |-|
