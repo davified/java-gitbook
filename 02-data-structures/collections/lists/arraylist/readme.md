@@ -107,6 +107,7 @@ import java.util.Enumeration;
 * Sorting strings and numbers - `.sort()`
 * Reversing the sort: call .sort() and then .reverse()
 * Sorting objects using Comparable:
+
 ```
 public class Student implements Comparable {
     private String studentname;
@@ -153,9 +154,13 @@ public class Student  {
         this.studentname = studentname;
         this.studentage = studentage;
     }
+
     ...
+
     //Getter and setter methods same as the above examples
+
     ...
+
     /*Comparator for sorting the list by Student Name*/
     public static Comparator<Student> StuNameComparator = new Comparator<Student>() {
 
@@ -242,6 +247,7 @@ ArrayList<String> al2 = (ArrayList<String>)al.clone();
 ```
 
 * Empty an arraylist
+
 ```
 ArrayList.clear() // Method 1. recommended. Time complexity O(N)
 al1.clear();
