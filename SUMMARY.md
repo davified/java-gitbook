@@ -5,6 +5,7 @@
 * [Data structures](02-data-structures/readme.md)
 	* [Arrays](02-data-structures/arrays/readme.md)
 	* [Collections](02-data-structures/collections/readme.md)
+		* [Static Methods](02-data-structures/collections/static-methods/readme.md)
 		* [List](02-data-structures/collections/lists/readme.md)
 			* [ArrayList](02-data-structures/collections/lists/arraylist/readme.md)
 			* [LinkedList](02-data-structures/collections/lists/linkedlist/readme.md)

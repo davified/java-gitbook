@@ -133,72 +133,6 @@ public class Student implements Comparable {
 
 ```
 
-* Sorting objects based on multiple properties with Comparator
-
-```
-import java.util.Comparator;
-public class Student  {
-    private String studentname;
-    private int rollno;
-    private int studentage;
-
-    public Student(int rollno, String studentname, int studentage) {
-        this.rollno = rollno;
-        this.studentname = studentname;
-        this.studentage = studentage;
-    }
-    ...
-    //Getter and setter methods same as the above examples
-    ...
-    /*Comparator for sorting the list by Student Name*/
-    public static Comparator<Student> StuNameComparator = new Comparator<Student>() {
-
-	public int compare(Student s1, Student s2) {
-	   String StudentName1 = s1.getStudentname().toUpperCase();
-	   String StudentName2 = s2.getStudentname().toUpperCase();
-
-	   //ascending order
-	   return StudentName1.compareTo(StudentName2);
-
-	   //descending order
-	   //return StudentName2.compareTo(StudentName1);
-    }};
-
-    /*Comparator for sorting the list by roll no*/
-    public static Comparator<Student> StuRollno = new Comparator<Student>() {
-
-	public int compare(Student s1, Student s2) {
-
-	   int rollno1 = s1.getRollno();
-	   int rollno2 = s2.getRollno();
-
-	   /*For ascending order*/
-	   return rollno1-rollno2;
-
-	   /*For descending order*/
-	   //rollno2-rollno1;
-   }};
-    @Override
-    public String toString() {
-        return "[ rollno=" + rollno + ", name=" + studentname + ", age=" + studentage + "]";
-    }
-
-}
-
-
-// having defined the comparator, we can then, in our main(), call the sort function with the comparators:
-	   /*Sorting based on Student Name*/
-	   System.out.println("Student Name Sorting:");
-	   Collections.sort(arraylist, Student.StuNameComparator);
-
-	   for(Student str: arraylist){
-			System.out.println(str);
-	   }
-
-	   /* Sorting on Rollno property*/
-	   System.out.println("RollNum Sorting:");
-	   Collections.sort(arraylist, Student.StuRollno);
-```
 
 ### Comparing two ArrayLists
 You have to loop through one array and use the .contains(Object o) method within the for loop
@@ -209,14 +143,7 @@ for (String temp : al1)
           System.out.println(al3);
 ```
 
-### Other frequently-used Collections class methods:
-
-* Swapping the position of two elements in an ArrayList `Collections.swap(ist list, int i1, int i2) `
-```
-This method swaps the element of index i1 with the element of index i2.
-// Example:
-Collections.swap(al, 1, 4);
-```
+### Other frequently-used ArrayList methods:
 
 * toString()
 When we are dealing with ArrayList of Objects then it is must to Override the `toString()` method in order to get the output in desired format.
@@ -237,10 +164,10 @@ ArrayList<String> al2 = (ArrayList<String>)al.clone();
 
 * Empty an arraylist
 ```
-ArrayList.clear() // Method 1. recommended. Time complexity O(N)
+.clear() // Method 1. recommended. Time complexity O(N)
 al1.clear();
 
-ArrayList.removeAll()  // Method 2. Time complexity O(N2)
+.removeAll()  // Method 2. Time complexity O(N2)
 al2.removeAll(al2);
 ```
 

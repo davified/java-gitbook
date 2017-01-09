@@ -60,7 +60,7 @@ Modifiers are keywords that you add to those definitions to change their meaning
   * Visible to the package and all subclasses (`protected`).
 
 * Non-access modifiers
-  * The `static` modifier for creating class methods and variables.
+  * The `static` modifier for creating static methods and variables.
   * The `final` modifier for finalizing the implementations of classes, methods, and variables.
   * The `abstract` modifier for creating abstract classes and methods.
   * The `synchronized` and `volatile` modifiers, which are used for threads.

@@ -10,7 +10,7 @@ The Collections API gives us three main interfaces (List, Set and Map). More spe
 * TreeSet: keeps the collection sorted and prevents duplicates
 * HashMap: like an object/dictionary. Lets you store and access elements as key-value pairs
 * LinkedList: Designed to give better performance when you insert or delete elements from the middle of the collection. (In practice, an ArrayList is still usually what you want.)
-* HashSet: Prevents duplicates inthe collection, and given an element, can find that element in the collection qulckly. Use this when it’s important to ensure that there are no duplicates. (not efficient for large N because the hashing algorithm could result in multiple objects having the same hashCode. Not good.) For a full explanation of the weaknesses of Hash Sets, see p. 563
+* HashSet: Prevents duplicates in the collection, and given an element, can find that element in the collection quickly. Use this when it’s important to ensure that there are no duplicates. (not efficient for large N because the hashing algorithm could result in multiple objects having the same hashCode. Not good.) For a full explanation of the weaknesses of Hash Sets, see p. 563
 * LinkedHashMap: Like a regular HashMap, except it can remember the order in which elements (name/value pairs) were Inserted, or it can be configured to remember the order In which elements were last accessed.
 
 
@@ -35,5 +35,3 @@ A collections framework is a unified architecture for representing and manipulat
 * Algorithms − These are the methods that perform useful computations, such as searching and sorting, on objects that implement collection interfaces. The algorithms are said to be polymorphic: that is, the same method can be used on many different implementations of the appropriate collection interface.
 
 In addition to collections, the framework defines several **map interfaces and classes**. Maps store key/value pairs. Although maps are not collections in the proper use of the term, but they are fully integrated with collections.
-
-#### Interfaces implemented by
