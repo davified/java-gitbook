@@ -11,7 +11,7 @@ What are LinkedLists?
   * Not synchronised. If multiple threads manipulate the same linkedlist, we have to make some synchronisation
 
 When to use LinkedList?
-* We should use LinkedList for remove-heavy applications
+* We should use LinkedList for "remove-heavy" applications
 
 
 ### Initializing LinkedLists

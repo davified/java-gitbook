@@ -2,10 +2,14 @@
 
 Why we should love ArrayLists:
 * random access / accessing items by the index (e.g. list.get(0)) - O(1)
-* But if we want to remove items, we'd have to shift each item in our list - O(N)
-  * If our application is just about adding elements to a list and getting elements with known indexes, then ArrayList is perfect for the job.
 * All operations run at O(N) time approximately
 
+But there are some downsides to using ArrayLists:
+* But if we want to remove items, we'd have to shift each item in our list - O(N)
+  * If our application is just about adding elements to a list and getting elements with known indexes, then ArrayList is perfect for the job.
+
+When to use ArrayLists?
+  * We should use ArrayLists for "add-heavy" applications
 ### Initializing ArrayLists
 Method 1: Initialization using Arrays.asList
 

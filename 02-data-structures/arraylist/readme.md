@@ -146,8 +146,7 @@ for (String temp : al1)
 ### Other frequently-used ArrayList methods:
 
 * toString()
-When we are dealing with ArrayList of Objects then it is must to Override the `toString()` method in order to get the output in desired format.
-Otherwise, using toString() will return this: `loremipsum.com.Student@10b28f30`
+When we are dealing with ArrayList of Objects then it is must to Override the `toString()` method in order to get the output in desired format. Otherwise, using toString() will return this: `loremipsum.com.Student@10b28f30`
 
 * Join/combine two ArrayLists `.addAll()`
 ```
